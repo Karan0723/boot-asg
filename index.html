@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        li {
+            list-style: none;
+            display: inline-block;
+            padding: 12px;
+            font-size: 17px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(47, 46, 46);
+        }
+
+
+        .btn {
+            border-radius: 10px;
+        }
+
+
+
+        .dropdown:hover .dropdown-menu {
+
+            display: block
+        }
+
+        #chef:hover {
+            transition: .5s;
+            transform: scale(1.1)
+        }
+
+        #icon:hover {
+            transform: scale(1.2);
+            background-color: rgb(255, 4, 4)
+        }
+
+
+
+
+
+
+
+
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+
+
+    <nav class=" navbar navbar-expand-lg bg-body-tertiary  position-fixed w-100 top-0 left-100" style="z-index: 3;">
+
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Chefs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="me-5">
+                <button class="btn btn-danger" type="submit">BOOK A TABLE</button>
+            </div>
+
+
+
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <!-- NEXt  -->
+
+    <div class="container-fluid ">
+
+        <div class="mt-5 row alert alert-secondary text-center align-items-center py-5">
+            <div class="col-lg-6  col-md-12 col-sm-12 col-12">
+                <h1
+                    style=" font-family: 'Poppins', sans-serif; font-family: 'Shadows Into Light', cursive; font-size: 56px;">
+                    Enjoy Your Healthy <br>
+                    Delicious Food</h1>
+
+                <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum
+                    quaerat.</p>
+
+                <button class="btn btn-danger text-white ps-3 pe-3 m-3" style="border-radius: 42px; ">Book a
+                    Table</button>
+                <a class="fs-5" href=""> <i class="fa-regular fa-circle-play" style="color: #f10909; font-size: 26px; ">
+                    </i> Watch
+                    Video </a>
+            </div>
+
+            <div class="col-lg-6  col-md-12 col-sm-12 col-12">
+                <img src="Assest/image/hero-img.png" class="w-75 " alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- NEXt  -->
+
+    <div class="container pb-5 ">
+
+        <p class="text-center">ABOUT US</p>
+
+        <p class="text-center"
+            style=" font-family: 'Poppins', sans-serif; font-family: 'Shadows Into Light', cursive; font-size: 36px;">
+            LEARN MORE <span class="text-danger">ABOUT US</span></p>
+        <br>
+
+        <div class="row">
+
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+
+                <div>
+                    <img src="Assest/image/hotle-table.jpg" class="w-100" alt="">
+                    <br> <br>
+                    <img src="Assest/image/hotle-table.jpg" class="w-100" alt="">
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12" style="text-align: justify;">
+
+                <p style="font-style: italic; font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
+                <div class="container-fluid">
+
+                    <p> <i class="fa-solid fa-check-double m-3" style="color: #fb0404; font-size: 24px;"></i>Duis aute
+                        irure
+                        dolor in reprehenderit in voluptate velit.</p>
+
+                    <p> <i class="fa-solid fa-check-double m-3" style="color: #fb0404; font-size: 24px;"></i>Ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat.</p>
+
+                    <p> <i class="fa-solid fa-check-double m-3"
+                            style="color: #fb0404; font-size: 24px; text-align: justify;"></i> Ullamco Lorem ipsum dolor
+                        sit amet. trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+
+                    <br>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident
+                    </p>
+                    <img src="Assest/image/about-2.jpg" class="w-100" alt="">
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Next  -->
+
+    <div class="container-fluid  alert alert-secondary p-5 ">
+
+
+        <div class="row " style="text-align: justify;">
+
+            <div class=" col-lg-3 col-md-12 col-sm-12  col-12 mb-3 ">
+
+                <div class="pt-2 pb-2 pe-3 ps-3 w-100"
+                    style="text-align: justify; background-color: rgb(213, 10, 10); color: white; ">
+                    <h1 class="mb-4">Why Choose <br> Yummy ?</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et.
+                        Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                    <button class="btn "
+                        style="background-color: rgba(240, 255, 255, 0.274); color: white; border-radius: 24px; padding-left: 24px; padding-right: 24px; margin-left: 20%; margin-bottom: 16px;">Learn
+                        More</button>
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 ">
+
+                <div class="border border-white p-5 mb-3 bg-white">
+
+                    <i class="fa-solid fa-mobile-screen-button mb-3"
+                        style="color: #e40733; font-size: 36px; margin-left: 35%;  background-color: rgba(200, 102, 102, 0.378); border-radius: 100%; padding: 16px; "></i>
+                    <h3>Corporis voluptates officia eiusmod</h3>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-3 col-md-12 col-sm-12  col-12 ">
+
+                <div class="border border-white  p-5  mb-3 bg-white">
+
+                    <i class="fa-regular fa-gem mb-3"
+                        style="color: #e40733; font-size: 36px; margin-left: 35%;  background-color: rgba(200, 102, 102, 0.378); border-radius: 100%; padding: 16px; "></i>
+                    <h3>Corporis voluptates officia eiusmod </h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt </p>
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-3 col-md-12 col-sm-12  col-12 ">
+
+                <div class="border border-white p-5 bg-white">
+
+                    <i class="fa-solid fa-flask-vial mb-3"
+                        style="color: #e40733; font-size: 36px; margin-left: 35%;  background-color: rgba(200, 102, 102, 0.378); border-radius: 100%; padding: 16px;"></i>
+                    <h3>Labore consequatur incidid dolore</h3>
+                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    <!-- Next  -->
+
+    <div class="container-fluid">
+
+        <div
+            style="background: linear-gradient(rgba(0, 0, 0, 0.544),rgba(0, 0, 0, 0.544)), url(Assest/image/menu-item-1.png); background-repeat: no-repeat; background-position: center; background-size: cover; background-attachment: fixed;">
+
+            <div class="row text-center m-5 p-5 ">
+
+                <div class=" col-lg-3 col-md-12 col-sm-12  col-12 ">
+                    <p>
+                    <h1 class="text-white">232</h1> <span class="text-white"> Clients </span> </p>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12  col-12">
+                    <p>
+                    <h1 class="text-white">521</h1> <span class="text-white"> Projects </span> </p>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12  col-12">
+                    <p>
+                    <h1 class="text-white">1453</h1> <span class="text-white"> Hours Of support </span> </p>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12  col-12">
+                    <p>
+                    <h1 class="text-white">32</h1> <span class="text-white"> Workers </span> </p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Next  -->
+
+    <div class="container">
+        <p class="text-center">OUR MENU</p>
+
+        <p class="text-center"
+            style=" font-family: 'Poppins', sans-serif; font-family: 'Shadows Into Light', cursive; font-size: 36px;">
+            Check Our <span class="text-danger"> Yummy Menu </span>
+        </p>
+
+        <div style="display: flex; justify-content: center;">
+
+            <div class="nav mb-3">
+                <li class="nav-item btn">Staters</li>
+                <li class="nav-item btn">Breakfast</li>
+                <li class="nav-item btn">Lunch</li>
+                <li class="nav-item btn">Dinner</li>
+            </div>
+
+        </div>
+
+
+        <p class="text-center mb-1">MENU</p>
+        <h1 class="text-center  text-danger">Starters</h1>
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12 p-5">
+                <img src="Assest/image/menu-item-1.png" class="w-100" alt="">
+                <h1 class="text-center">Magnam Tiste</h1>
+                <p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="text-center text-danger fs-3 h1">$5.95</p>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12 p-5">
+                <img src="Assest/image/menu-item-2.png" class="w-100" alt="">
+                <h1 class="text-center">Aut Luia</h1>
+                <p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="text-center text-danger fs-3 h1">$14.95</p>
+            </div>
+
+
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12 p-5">
+                <img src="Assest/image/menu-item-3.png" class="w-100" alt="">
+                <h1 class="text-center">Est Eligendi</h1>
+                <p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="text-center text-danger fs-3 h1">$8.95</p>
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12 p-5">
+                <img src="Assest/image/menu-item-4.png" class="w-100" alt="">
+                <h1 class="text-center">Eos Luibusdam</h1>
+                <p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="text-center text-danger fs-3 h1">$12.95</p>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12 p-5">
+                <img src="Assest/image/menu-item-5.png" class="w-100" alt="">
+                <h1 class="text-center">Eos Luibusdam</h1>
+                <p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="text-center text-danger fs-3 h1">$12.95</p>
+            </div>
+
+
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12 p-5">
+                <img src="Assest/image/menu-item-6.png" class="w-100" alt="">
+                <h1 class="text-center">Laboriosam Direva</h1>
+                <p class="text-center">Lorem, deren, trataro, filede, nerada</p>
+                <p class="text-center text-danger fs-3 h1">$9.95</p>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Next -->
+
+    <div class="container-fluid alert alert-secondary">
+
+        <p class="text-center">OUR MENU</p>
+
+        <p class="text-center "
+            style=" font-family: 'Poppins', sans-serif; font-family: 'Shadows Into Light', cursive; font-size: 36px;">
+            WHAT ARE THEY <span class="text-danger"> SAYING ABOUT US </span>
+        </p>
+
+
+        <div class="carousel slide " id="car">
+
+            <div class="carousel-indicators">
+
+                <button type="button" class="active bg-danger" data-bs-target="#car" data-bs-slide-to="0"></button>
+                <button type="button" class="bg-danger" data-bs-target="#car" data-bs-slide-to="1"></button>
+                <button type="button" class="bg-danger" data-bs-target="#car" data-bs-slide-to="2"></button>
+                <button type="button" class="bg-danger" data-bs-target="#car" data-bs-slide-to="3"></button>
+
+            </div>
+
+            <div class="carousel-inner">
+
+
+                <div class="carousel-item active">
+
+
+                    <div class="container p-5 w-100">
+                        <div class="row" style="border-left: 2px solid red;">
+
+                            <div class="col-lg-8 col-sm-8 col-md-8  col-8">
+                                <h3>Saul Goodman</h3>
+                                <p>Ceo & Founder</p>
+                                <p> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt culpa
+                                        assumenda sunt vero dolore repellat, atque obcaecati impedit repellendus
+                                        accusantium
+                                        labore ipsum in commodi numquam veniam. Sunt, sint quidem. </i></p>
+
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-sm-4 col-md-4 col-12">
+                                <img src="Assest/image/testimonials-1.jpg" style="border-radius: 100%;" class="w-100"
+                                    alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="carousel-item ">
+
+                    <div class="container  w-100 p-5">
+
+                        <div class="row" style="border-left: 2px solid red;">
+
+                            <div class="col-lg-8 col-sm-8 col-md-8  col-8">
+                                <h3>Sara Willson</h3>
+                                <p>Designer</p>
+                                <p> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt culpa
+                                        assumenda sunt vero dolore repellat, atque obcaecati impedit repellendus
+                                        accusantium
+                                        labore ipsum in commodi numquam veniam. Sunt, sint quidem. </i></p>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-sm-4 col-md-4 col-12">
+                                <img src="Assest/image/testimonials-2.jpg" style="border-radius: 100%;" class="w-100"
+                                    alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="carousel-item ">
+
+                    <div class="container  w-100 p-5">
+
+                        <div class="row" style="border-left: 2px solid red;">
+
+                            <div class="col-lg-8 col-sm-8 col-md-8  col-8">
+
+                                <h3>Jena Kerlis</h3>
+                                <p>Store Owner</p>
+                                <p> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt culpa
+                                        assumenda sunt vero dolore repellat, atque obcaecati impedit repellendus
+                                        accusantium
+                                        labore ipsum in commodi numquam veniam. Sunt, sint quidem. </i></p>
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-sm-4 col-md-4 col-12">
+                                <img src="Assest/image/testimonials-3.jpg" style="border-radius: 100%;" class="w-100"
+                                    alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="carousel-item ">
+
+                    <div class="container  w-100 p-5">
+
+                        <div class="row" style="border-left: 2px solid red;">
+
+                            <div class="col-lg-8 col-sm-8 col-md-8  col-8">
+
+                                <h3>John Larson</h3>
+                                <p>Entreprenuer</p>
+                                <p> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt culpa
+                                        assumenda sunt vero dolore repellat, atque obcaecati impedit repellendus
+                                        accusantium
+                                        labore ipsum in commodi numquam veniam. Sunt, sint quidem. </i></p>
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-sm-4 col-md-4 col-12">
+                                <img src="Assest/image/testimonials-4.jpg" style="border-radius: 100%;" class="w-100"
+                                    alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <!-- Next  -->
+
+    <div class="container-fluid ">
+
+        <p class="text-center">EVENTS</p>
+
+        <p class="text-center "
+            style=" font-family: 'Poppins', sans-serif; font-family: 'Shadows Into Light', cursive; font-size: 36px;">
+            SHARE YOUR MOMENTS <span class="text-danger"> IN OUR RESTURANT </span>
+        </p>
+
+        <div class="carousel slide mb-5" id="car1">
+
+            <div class="carousel-indicators">
+                <button class="active bg-danger" data-bs-slide-to="0" data-bs-target="#car1"></button>
+                <button class="bg-danger" data-bs-slide-to="1" data-bs-target="#car1"></button>
+                <button class="bg-danger" data-bs-slide-to="2" data-bs-target="#car1"></button>
+
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+                    <div class="container">
+
+                        <div class="row ">
+
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+
+                                    <img src="Assest/image/party-2.jpg" class="w-100" alt="">
+
+                                    <div class=" card-body ">
+
+                                        <div class="card-title">
+                                            <h1>Private Parties</h1>
+                                            <h1>$221</h1>
+                                        </div>
+
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                                                veritatis
+                                                quibusdam
+                                                molestiae eos, fugiat optio illo fuga. Dolorum sint aspernatur commodi
+                                                itaque
+                                                esse
+                                                saepe distinctio est, facere veniam minima at!</p>
+                                            <button class="btn btn-danger">Read More</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+
+                                    <img src="Assest/image/party-1.jpg" class="w-100" alt="">
+
+                                    <div class=" card-body ">
+
+                                        <div class="card-title">
+                                            <h1>Birthday Parties</h1>
+                                            <h1>$441</h1>
+                                        </div>
+
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                                                veritatis
+                                                quibusdam
+                                                molestiae eos, fugiat optio illo fuga. Dolorum sint aspernatur commodi
+                                                itaque
+                                                esse
+                                                saepe distinctio est, facere veniam minima at!</p>
+                                            <button class="btn btn-danger">Read More</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+
+                                    <img src="Assest/image/party-3.jpg" class="w-100" alt="">
+
+                                    <div class=" card-body ">
+
+                                        <div class="card-title">
+                                            <h1>Custom Parties</h1>
+                                            <h1>$99</h1>
+                                        </div>
+
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                                                veritatis
+                                                quibusdam
+                                                molestiae eos, fugiat optio illo fuga. Dolorum sint aspernatur commodi
+                                                itaque
+                                                esse
+                                                saepe distinctio est, facere veniam minima at!</p>
+                                            <button class="btn btn-danger">Read More</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="carousel-item ">
+
+                    <div class="container">
+
+                        <div class="row ">
+
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+
+                                    <img src="Assest/image/party-2.jpg" class="w-100" alt="">
+
+                                    <div class=" card-body ">
+
+                                        <div class="card-title">
+                                            <h1>Private Parties</h1>
+                                            <h1>$221</h1>
+                                        </div>
+
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                                                veritatis
+                                                quibusdam
+                                                molestiae eos, fugiat optio illo fuga. Dolorum sint aspernatur commodi
+                                                itaque
+                                                esse
+                                                saepe distinctio est, facere veniam minima at!</p>
+                                            <button class="btn btn-danger">Read More</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+
+                                    <img src="Assest/image/party-1.jpg" class="w-100" alt="">
+
+                                    <div class=" card-body ">
+
+                                        <div class="card-title">
+                                            <h1>Birthday Parties</h1>
+                                            <h1>$441</h1>
+                                        </div>
+
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                                                veritatis
+                                                quibusdam
+                                                molestiae eos, fugiat optio illo fuga. Dolorum sint aspernatur commodi
+                                                itaque
+                                                esse
+                                                saepe distinctio est, facere veniam minima at!</p>
+                                            <button class="btn btn-danger">Read More</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+
+                                    <img src="Assest/image/party-3.jpg" class="w-100" alt="">
+
+                                    <div class=" card-body ">
+
+                                        <div class="card-title">
+                                            <h1>Custom Parties</h1>
+                                            <h1>$99</h1>
+                                        </div>
+
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                                                veritatis
+                                                quibusdam
+                                                molestiae eos, fugiat optio illo fuga. Dolorum sint aspernatur commodi
+                                                itaque
+                                                esse
+                                                saepe distinctio est, facere veniam minima at!</p>
+                                            <button class="btn btn-danger">Read More</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="carousel-item ">
+
+                    <div class="container">
+
+                        <div class="row ">
+
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
+                                <div class="card ">
+
+                                    <img src="Assest/image/party-2.jpg" class="w-100" alt="">
+
+                                    <div class=" card-body ">
+
+                                        <div class="card-title">
+                                            <h1>Private Parties</h1>
+                                            <h1>$221</h1>
+                                        </div>
+
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                                                veritatis
+                                                quibusdam
+                                                molestiae eos, fugiat optio illo fuga. Dolorum sint aspernatur commodi
+                                                itaque
+                                                esse
+                                                saepe distinctio est, facere veniam minima at!</p>
+                                            <button class="btn btn-danger">Read More</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+
+                                    <img src="Assest/image/party-1.jpg" class="w-100" alt="">
+
+                                    <div class=" card-body ">
+
+                                        <div class="card-title">
+                                            <h1>Birthday Parties</h1>
+                                            <h1>$441</h1>
+                                        </div>
+
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                                                veritatis
+                                                quibusdam
+                                                molestiae eos, fugiat optio illo fuga. Dolorum sint aspernatur commodi
+                                                itaque
+                                                esse
+                                                saepe distinctio est, facere veniam minima at!</p>
+                                            <button class="btn btn-danger">Read More</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                                <div class="card">
+
+                                    <img src="Assest/image/party-3.jpg" class="w-100" alt="">
+
+                                    <div class=" card-body ">
+
+                                        <div class="card-title">
+                                            <h1>Custom Parties</h1>
+                                            <h1>$99</h1>
+                                        </div>
+
+                                        <div class="card-text">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                                                veritatis
+                                                quibusdam
+                                                molestiae eos, fugiat optio illo fuga. Dolorum sint aspernatur commodi
+                                                itaque
+                                                esse
+                                                saepe distinctio est, facere veniam minima at!</p>
+                                            <button class="btn btn-danger">Read More</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Next  -->
+
+    <div class="container-fluid pb-5 alert alert-secondary">
+        <p class="text-center">OUR MENU</p>
+
+        <p class="text-center m-5"
+            style=" font-family: 'Poppins', sans-serif; font-family: 'Shadows Into Light', cursive; font-size: 36px;">
+            OUR PROFFESIONAL <span class="text-danger"> CHEFS </span>
+        </p>
+
+        <div class="container">
+
+            <div class="row">
+
+
+                <div class="col-lg-4">
+
+                    <div class="card mb-5 " id="chef">
+                        <img src="Assest/image/chefs-1.jpg" alt="">
+
+                        <div class="card-body">
+
+                            <div class="card-title">
+                                <h4>Walter White</h4>
+                                <small>Master Chef</small>
+
+                            </div>
+
+                            <div class="card-text">
+                                <small> <i>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa
+                                        quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</i>
+                                </small>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4">
+
+                    <div class="card mb-5" id="chef">
+                        <img src="Assest/image/chefs-2.jpg" alt="">
+
+                        <div class="card-body">
+
+                            <div class="card-title">
+                                <h4>Sarah Jhonson</h4>
+                                <small>Patissier</small>
+
+                            </div>
+
+                            <div class="card-text">
+                                <small> <i>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil
+                                        minima suscipit corporis. Voluptate sed quas reiciendis animi neque
+                                        sapiente.</i>
+                                </small>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-4">
+
+                    <div class="card" id="chef">
+                        <img src="Assest/image/chefs-3.jpg" alt="">
+
+                        <div class="card-body">
+
+                            <div class="card-title">
+                                <h4>William Anderson</h4>
+                                <small>Cook</small>
+
+                            </div>
+
+                            <div class="card-text">
+                                <small> <i>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae
+                                        deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</i>
+                                </small>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Next  -->
+
+
+    <div class="container-fluid mb-5">
+
+        <p class="text-center mt-5">BOOK A TABLE</p>
+
+        <p class="text-center "
+            style=" font-family: 'Poppins', sans-serif; font-family: 'Shadows Into Light', cursive; font-size: 36px;">
+            BOOK <span class="text-danger">YOUR STAY</span> WIDTH US
+        </p>
+
+
+        <form action="">
+
+            <div class="container m-2 alert alert-secondary">
+                <div class="row ">
+
+                    <div class="col-lg-4">
+                        <img src="Assest/image/gallery-5.jpg" class="w-100" alt="">
+                    </div>
+
+                    <div class="col-lg-8 ">
+
+                        <div class="row ">
+
+                            <div class="col-lg-4 mb-3">
+                                <input type="text" name="" class="form-control" placeholder="Your Name" id="">
+                            </div>
+
+                            <div class="col-lg-4">
+                                <input type="email" name="" class="form-control" placeholder="Your Email" id="">
+                            </div>
+
+                            <div class="col-lg-4">
+                                <input type="number" name="" class="form-control" placeholder="Your Phone" id="">
+                            </div>
+
+                            <div class="col-lg-4">
+                                <input type="date" name="" class="form-control" placeholder="Date" id="">
+                            </div>
+
+                            <div class="col-lg-4">
+                                <input type="datetime" name="" class="form-control" placeholder="Time" id="">
+                            </div>
+
+                            <div class="col-lg-4">
+                                <input type="text" name="" class="form-control" placeholder="# of people" id="">
+                            </div>
+
+                            <div class="col-lg-12 mt-3">
+                                <textarea class="form-control" placeholder="Message" name="" id="" cols="30"
+                                    rows="6"></textarea>
+                            </div>
+
+                            <div class="col-lg-12 mt-3 text-center">
+                                <button class="btn btn-danger " type="submit">Book a Table</button>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </form>
+
+
+
+    </div>
+
+
+
+    <!-- Next  -->
+
+    <div class="container-fluid  alert alert-secondary">
+
+        <p class="text-center mt-5">GALLERY</p>
+
+        <p class="text-center "
+            style=" font-family: 'Poppins', sans-serif; font-family: 'Shadows Into Light', cursive; font-size: 36px;">
+            CHECK <span class="text-danger">OUR GALLERY</span>
+        </p>
+
+        <div class="container">
+
+
+            <div class="carousel slide" id="car2">
+
+                <div class="carousel-indicators ">
+                    <button class="  bg-danger" data-bs-target="#car2" data-bs-slide-to="0"></button>
+                    <button class="bg-danger" data-bs-target="#car2" data-bs-slide-to="1"></button>
+                    <button class="bg-danger" data-bs-target="#car2" data-bs-slide-to="2"></button>
+                    <button class=" active bg-danger" data-bs-target="#car2" data-bs-slide-to="3"></button>
+                    <button class=" bg-danger" data-bs-target="#car2" data-bs-slide-to="4"></button>
+                    <button class="bg-danger" data-bs-target="#car2" data-bs-slide-to="5"></button>
+                    <button class="bg-danger" data-bs-target="#car2" data-bs-slide-to="6"></button>
+                    <button class=" bg-danger" data-bs-target="#car2" data-bs-slide-to="7"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item ">
+
+                        <div class="row m-5 justify-content-center">
+                            <div class="col-lg-6">
+                                <img src="Assest/image/gallery-1.jpg" class="w-100 " style=" border: 5px solid red;"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+
+                        <div class="row m-5 justify-content-center">
+                            <div class="col-lg-6">
+                                <img src="Assest/image/gallery-2.jpg" class="w-100" style="border: 5px solid red;"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="row m-5 justify-content-center">
+                            <div class="col-lg-6">
+                                <img src="Assest/image/gallery-3.jpg" class="w-100" style="border: 5px solid red;"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active">
+
+                        <div class="row m-5 justify-content-center">
+                            <div class="col-lg-6">
+                                <img src="Assest/image/gallery-4.jpg" class="w-100" style="border: 5px solid red;"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row m-5 justify-content-center">
+                            <div class="col-lg-6">
+                                <img src="Assest/image/gallery-5.jpg" class="w-100" style="border: 5px solid red;"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <div class="row m-5 justify-content-center">
+                            <div class="col-lg-6">
+                                <img src="Assest/image/gallery-6.jpg" class="w-100" style="border: 5px solid red;"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row m-5 justify-content-center">
+                            <div class="col-lg-6">
+                                <img src="Assest/image/gallery-7.jpg" class="w-100" style="border: 5px solid red;"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="row m-5 justify-content-center">
+                            <div class="col-lg-6">
+                                <img src="Assest/image/gallery-8.jpg" class="w-100" style="border: 5px solid red;"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Next  -->
+
+    <div class="container-fluid ">
+
+        <p class="text-center mt-5">CONTACT</p>
+
+        <p class="text-center "
+            style=" font-family: 'Poppins', sans-serif; font-family: 'Shadows Into Light', cursive; font-size: 36px;">
+            NEED HELP?<span class="text-danger">CONTACT US</span>
+        </p>
+
+        <div class="container ">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d112011.96706592379!2d77.03855543596275!3d28.678457776071113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d28.7243838!2d77.1742312!4m5!1s0x390d052e53236125%3A0x8e0fe0a057f3cfc7!2ssithub!3m2!1d28.6192453!2d77.03422789999999!5e0!3m2!1sen!2sin!4v1682619504975!5m2!1sen!2sin"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            <div class="row m-3">
+
+                <div class="col-lg-6">
+                    <div class=" d-flex align-items-center alert alert-secondary">
+                        <i class="fa-regular fa-map" style="color: #f2f2f2; background-color: red; font-size: 24px; border-radius: 100%; 
+                    padding: 16px; margin: 8px;"></i>
+                        <div>
+                            <h4>Our Address</h4>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <div class=" d-flex align-items-center  alert alert-secondary">
+                        <i class="fa-regular fa-map" style="color: #f2f2f2; background-color: red; font-size: 24px; border-radius: 100%; 
+                    padding: 16px; margin: 8px;"></i>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>contact@example.com</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 ">
+                    <div class=" d-flex align-items-center  alert alert-secondary">
+                        <i class="fa-regular fa-map" style="color: #f2f2f2; background-color: red; font-size: 24px; border-radius: 100%; 
+                    padding: 16px; margin: 8px;"></i>
+                        <div>
+                            <h4>Call Us </h4>
+                            <p>+1 5589 55488 55</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 ">
+                    <div class=" d-flex align-items-center  alert alert-secondary">
+                        <i class="fa-regular fa-map" style="color: #f2f2f2; background-color: red; font-size: 24px; border-radius: 100%; 
+                    padding: 16px; margin: 8px;"></i>
+                        <div>
+                            <h4>Opening Hours</h4>
+                            <p>Mon-Sat: 11AM - 23PM; Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+        <div class="container mb-5" style="box-shadow: 0px 0px 6px black;">
+
+            <form class="row" action="">
+
+                <div class="col-lg-6 mb-3 mt-3">
+                    <input type="text" class="form-control" placeholder="Your Name" name="" id="">
+                </div>
+
+                <div class="col-lg-6 mb-3 mt-3">
+                    <input type="text" class="form-control" placeholder="Your Email" name="" id="">
+                </div>
+
+                <div class="col-lg-12 mb-1 mt-1">
+                    <input type="text" class="form-control" placeholder="Subject" name="" id="">
+                </div>
+
+                <div class="col-lg-12 mb-5 mt-1 ">
+                    <textarea name="" class="form-control" placeholder="Message" id="" cols="30" rows="6"></textarea>
+                </div>
+
+                <div class="col-lg-12 text-center m-3 ">
+                    <button class="btn btn-danger pe-4 ps-4" type="submit" style="border-radius: 42px;">Send
+                        Message</button>
+                </div>
+
+            </form>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <!-- Next  -->
+
+    <div class="container-fluid bg-black  pt-3 ">
+
+
+        <div class="row text-white fs-5 m-5 ">
+
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 d-flex ">
+                <i class="fa-solid fa-location-dot fs-2 text-white m-3"></i>
+                <div>
+                    <h4>Address</h4>
+                    <small>A108 Adam Street
+                        New York, NY 535022 - US</small>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 d-flex ">
+                <i class="fa-solid fa-phone fs-2 text-white m-3"></i>
+                <div>
+                    <h4>Reservations</h4>
+                    <small>Phone: +1 5589 55488 55
+                        Email: info@example.com</small>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 d-flex ">
+                <i class="fa-regular fa-clock  fs-2 text-white m-3"></i>
+                <div>
+                    <h5>Opening Hours</h5>
+                    <small>Mon-Sat: 11AM - 23PM
+                        Sunday: Closed</small>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 ">
+
+                <h4 class="text-center mb-3">Follow Us</h4>
+                <div style="display: flex; justify-content: space-evenly;">
+
+                    <a href="https://www.twitter.com" class="text-white"> <i id="icon" class="fa-brands fa-twitter p-2"
+                            style="border: 1px solid grey; border-radius: 100%; padding: 6px;"></i> </a>
+
+
+                    <a href="https://www.facebook.com" class="text-white"> <i id="icon"
+                            class="fa-brands fa-facebook p-2"
+                            style="border: 1px solid grey; border-radius: 100%; padding: 6px;"></i> </a>
+
+
+                    <a href="https://www.instagram.com" class="text-white"> <i id="icon"
+                            class="fa-brands fa-instagram p-2"
+                            style="border: 1px solid grey; border-radius: 100%; padding: 6px;"></i> </a>
+
+
+                    <a href="https://www.linkedin.com" class="text-white"> <i id="icon"
+                            class="fa-brands fa-linkedin p-2"
+                            style="border: 1px solid grey; border-radius: 100%; padding: 6px;"></i> </a>
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+        <p class="text-white text-center p-3" style="border-top: 1px solid rgb(195, 190, 190);"> © Copyright Yummy. All
+            Rights Reserved
+            <br>
+            Designed by BootstrapMade
+        </p>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
